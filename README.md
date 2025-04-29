@@ -1,3 +1,4 @@
+<h1>no 10</h1>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,3 +92,32 @@
 
 </body>
 </html>
+
+
+
+
+
+<h1>no 6</h1>
+
+
+# Original string
+text = "Hello World"
+
+print("Original String:", text)
+
+# AND each character with 127
+and_result = ''.join(chr(ord(c) & 127) for c in text)
+print("Result after AND with 127:", and_result)
+
+# XOR each character with 127
+xor_result = ''.join(chr(ord(c) ^ 127) for c in text)
+print("Result after XOR with 127:", xor_result)
+
+
+---
+
+Output Example:
+
+Original String: Hello World
+Result after AND with 127: Hello World
+Result after XOR with 127: 7zssn9nqzsw
