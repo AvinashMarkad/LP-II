@@ -1,16 +1,3 @@
-# LP-II
-Sure, Avinash!
-Here’s a simple implementation of Diffie-Hellman Key Exchange where:
-
-User (Alice) enters her private key.
-
-JavaScript (Bob) generates its own private key.
-
-Then they both compute the shared secret based on a public prime p and primitive root g.
-
-
-Here's the full working HTML + JavaScript code:
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,26 +91,3 @@ Here's the full working HTML + JavaScript code:
 
 </body>
 </html>
-
-
----
-
-How it works:
-
-Step 1: User (Alice) inputs her private key.
-
-Step 2: JavaScript (Bob) randomly generates a private key.
-
-Step 3: Both compute their public keys and exchange them.
-
-Step 4: Both compute the shared secret independently using the other's public key.
-
-Step 5: If done correctly, both secrets will match.
-
-
-
----
-
-Would you also like me to show a slightly more secure version using big integers (for larger primes) using a library like BigInt? It would be closer to real-world cryptography.
-Would you like that?
-
